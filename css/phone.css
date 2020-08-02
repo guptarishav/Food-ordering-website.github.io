@@ -1,0 +1,66 @@
+#home{
+    height: 380px;
+    padding: 3px 68px;
+    
+    
+}
+#home::before{
+    height: 480px;
+    
+    
+}
+#navbar{
+    flex-direction: column;
+}
+#navbar ul li a{
+    font-size: 1rem;
+    padding: 0px 7px;
+    padding-bottom: 8px;
+}
+
+#services{
+    flex-direction: column;
+
+}
+
+#sevices .box{
+    padding: 14px;
+    margin: 2px 0px;
+    margin-bottom: 20px;
+}
+
+.clients{
+    flex-wrap: wrap;
+
+}
+.clients img{
+    width: 66px;
+    padding:2px 6px;
+    height: auto;
+    
+}
+#home p{
+    font-size: 8px;
+}
+.h-primary{
+    font-size: 18px;
+}
+.btn{
+    font-size: 13px;
+    padding: 4px 8px;
+}
+.box img{
+    width: 150px;
+}
+.box h2{
+    font-size: 25px;
+}
+#client-section::before{
+    content: "";
+    position: absolute;
+    background: url('../back2.jpg');
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    opacity: 0.3;
+}
