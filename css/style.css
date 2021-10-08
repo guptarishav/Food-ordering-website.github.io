@@ -51,7 +51,7 @@
     text-decoration: none;
 }
 #navbar ul li a:hover{
-    color: blue;
+    color:black;
     background-color: white;
 }
 
@@ -100,7 +100,7 @@
 .btn{
     padding: 6px 20px;
     border: 2px solid white;
-    background-color: red;
+    background-color:purple;
     color: white;
     margin: 17px;
     font-size: 1.5rem;
