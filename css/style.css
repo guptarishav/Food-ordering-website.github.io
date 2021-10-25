@@ -91,6 +91,7 @@
     font-size: 3.8rem;
     padding: 12px;
     font-family: 'Balsamiq Sans', cursive;
+    color: purple;
 }
 .h-secondary{
     font-size: 2.8rem;
@@ -207,4 +208,12 @@ footer{
 } 
 html{
     scroll-behavior: smooth;
+}
+
+.service {
+    margin-top: 50px;
+}
+
+.submit {
+    margin-left: 80px;
 }
