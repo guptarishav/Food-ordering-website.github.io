@@ -118,7 +118,13 @@ button:hover {
   margin: 34px;
   display: flex;
 }
-
+.box {
+  transition: 0.9s;
+}
+.box:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
 #services .box {
   border: 2px solid brown;
   padding: 34px;
